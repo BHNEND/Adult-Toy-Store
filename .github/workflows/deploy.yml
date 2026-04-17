@@ -1,0 +1,38 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pull latest code
+        run: git pull origin main
+
+      - name: Install backend dependencies
+        working-directory: ./server
+        run: npm ci --production=false
+
+      - name: Build backend
+        working-directory: ./server
+        run: npm run build
+
+      - name: Run database migrations
+        working-directory: ./server
+        run: npx prisma db push
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
+      - name: Restart PM2 process
+        run: pm2 restart ecosystem.config.js --env production
+
+      - name: Build frontend
+        working-directory: ./web
+        run: npm ci && npm run build
+
+      - name: Restart frontend PM2
+        run: pm2 restart ats-frontend || pm2 start npm --name "ats-frontend" -- start
