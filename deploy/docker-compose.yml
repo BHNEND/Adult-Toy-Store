@@ -1,0 +1,27 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: ats-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${DB_USER:-ats_user}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-ats_default_change_me}
+      POSTGRES_DB: ${DB_NAME:-ats}
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-ats_user}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - ats-network
+
+volumes:
+  pg_data:
+
+networks:
+  ats-network:
+    driver: bridge
