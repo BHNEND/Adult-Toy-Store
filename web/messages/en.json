@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "about": "About",
+    "contact": "Contact",
+    "cart": "Cart",
+    "privacy": "Privacy Policy",
+    "menu": "Menu"
+  },
+  "hero": {
+    "title": "Discover Premium Pleasure",
+    "subtitle": "Curated collection of intimate wellness products for the modern individual. Discreet shipping worldwide.",
+    "cta": "Shop Now",
+    "browse": "Browse Collection"
+  },
+  "categories": {
+    "title": "Shop by Category",
+    "for_her": "For Her",
+    "for_him": "For Him",
+    "couples": "Couples",
+    "wellness": "Wellness",
+    "accessories": "Accessories",
+    "bestsellers": "Bestsellers"
+  },
+  "featured": {
+    "title": "Featured Products",
+    "subtitle": "Handpicked favorites from our latest collection",
+    "viewAll": "View All"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "outOfStock": "Out of Stock",
+    "new": "New",
+    "sale": "Sale"
+  },
+  "newsletter": {
+    "title": "Join Our Community",
+    "subtitle": "Subscribe for exclusive offers, new arrivals and intimate wellness tips.",
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "success": "Thank you for subscribing!",
+    "privacyNote": "We respect your privacy. Unsubscribe at any time."
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Empowering intimacy with quality and care",
+    "story_title": "Our Story",
+    "story": "Founded with a mission to break taboos and promote healthy attitudes toward intimacy, we curate only the finest products from trusted brands worldwide. Every item in our collection is carefully tested for quality, safety, and satisfaction.",
+    "mission_title": "Our Mission",
+    "mission": "To create a safe, judgment-free space where everyone can explore and enhance their intimate wellness journey with confidence.",
+    "values_title": "Our Values",
+    "quality": "Premium Quality",
+    "quality_desc": "Only the highest-grade materials and products make it into our collection.",
+    "discretion": "Total Discretion",
+    "discretion_desc": "Plain packaging and secure checkout — your privacy is our priority.",
+    "education": "Education First",
+    "education_desc": "We believe in informed choices and provide resources for sexual wellness education.",
+    "community": "Inclusive Community",
+    "community_desc": "Products and resources for all identities, orientations, and experience levels."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: April 2026",
+    "intro": "Your privacy is important to us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information.",
+    "sections": {
+      "info": "Information We Collect",
+      "infoContent": "We collect information you provide directly, including your name, email address, shipping address, and payment information when you make a purchase.",
+      "usage": "How We Use Your Information",
+      "usageContent": "We use your information to process orders, provide customer support, send promotional communications (with your consent), and improve our services.",
+      "protection": "Data Protection",
+      "protectionContent": "We implement industry-standard security measures to protect your personal information. All transactions are encrypted with SSL technology.",
+      "cookies": "Cookies",
+      "cookiesContent": "We use cookies to enhance your browsing experience, analyze site traffic, and personalize content. You can manage your cookie preferences at any time.",
+      "rights": "Your Rights",
+      "rightsContent": "You have the right to access, correct, or delete your personal information. Contact us at privacy@example.com for any privacy-related requests."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Your Message",
+      "send": "Send Message",
+      "sending": "Sending..."
+    },
+    "info": {
+      "email": "Email",
+      "hours": "Business Hours",
+      "hoursValue": "Mon-Fri: 9AM-6PM EST",
+      "response": "Response Time",
+      "responseValue": "Within 24 hours"
+    }
+  },
+  "footer": {
+    "description": "Premium intimate wellness products curated for the modern individual. Quality, discretion, and education at the heart of everything we do.",
+    "quickLinks": "Quick Links",
+    "customerService": "Customer Service",
+    "faq": "FAQ",
+    "shipping": "Shipping Info",
+    "returns": "Returns & Exchanges",
+    "followUs": "Follow Us",
+    "copyright": "© 2026 Adult Toy Store. All rights reserved."
+  }
+}

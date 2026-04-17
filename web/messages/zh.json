@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "首页",
+    "shop": "商城",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "cart": "购物车",
+    "privacy": "隐私政策",
+    "menu": "菜单"
+  },
+  "hero": {
+    "title": "探索极致愉悦",
+    "subtitle": "为现代都市人精心甄选的私密健康产品，全球 discreet 配送。",
+    "cta": "立即选购",
+    "browse": "浏览系列"
+  },
+  "categories": {
+    "title": "按分类选购",
+    "for_her": "女士专区",
+    "for_him": "男士专区",
+    "couples": "情侣专区",
+    "wellness": "健康护理",
+    "accessories": "配饰配件",
+    "bestsellers": "热销推荐"
+  },
+  "featured": {
+    "title": "精选产品",
+    "subtitle": "来自我们最新系列的精选之选",
+    "viewAll": "查看全部"
+  },
+  "product": {
+    "addToCart": "加入购物车",
+    "outOfStock": "暂无库存",
+    "new": "新品",
+    "sale": "特惠"
+  },
+  "newsletter": {
+    "title": "加入我们",
+    "subtitle": "订阅获取独家优惠、新品推荐和健康护理贴士。",
+    "placeholder": "请输入邮箱地址",
+    "subscribe": "立即订阅",
+    "success": "感谢您的订阅！",
+    "privacyNote": "我们尊重您的隐私，随时可以取消订阅。"
+  },
+  "about": {
+    "title": "关于我们",
+    "subtitle": "以品质与关怀赋能亲密关系",
+    "story_title": "我们的故事",
+    "story": "我们致力于打破禁忌、推广健康的亲密关系态度，从全球信赖品牌中精心甄选优质产品。我们系列中的每一件产品都经过严格的质量、安全和满意度测试。",
+    "mission_title": "我们的使命",
+    "mission": "创建一个安全、无偏见的空间，让每个人都能自信地探索和提升自己的私密健康之旅。",
+    "values_title": "我们的价值观",
+    "quality": "卓越品质",
+    "quality_desc": "只有最高等级的材料和产品才能进入我们的系列。",
+    "discretion": "绝对隐私",
+    "discretion_desc": "简洁包装和安全结账——您的隐私是我们的首要任务。",
+    "education": "教育为先",
+    "education_desc": "我们相信知情选择，并提供私密健康教育资源。",
+    "community": "包容社区",
+    "community_desc": "为所有身份、取向和经验水平提供产品和服务。"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新：2026年4月",
+    "intro": "您的隐私对我们很重要。本隐私政策说明了我们如何收集、使用、披露和保护您的信息。",
+    "sections": {
+      "info": "我们收集的信息",
+      "infoContent": "我们收集您直接提供的信息，包括您的姓名、电子邮件地址、收货地址和付款信息。",
+      "usage": "我们如何使用您的信息",
+      "usageContent": "我们使用您的信息来处理订单、提供客户支持、发送促销通讯（经您同意）以及改进我们的服务。",
+      "protection": "数据保护",
+      "protectionContent": "我们采用行业标准的安全措施来保护您的个人信息。所有交易均通过SSL技术加密。",
+      "cookies": "Cookie",
+      "cookiesContent": "我们使用Cookie来增强您的浏览体验、分析网站流量和个性化内容。您可以随时管理Cookie偏好设置。",
+      "rights": "您的权利",
+      "rightsContent": "您有权访问、更正或删除您的个人信息。请通过 privacy@example.com 联系我们处理隐私相关请求。"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "期待您的来信",
+    "form": {
+      "name": "您的姓名",
+      "email": "电子邮件",
+      "subject": "主题",
+      "message": "您的留言",
+      "send": "发送消息",
+      "sending": "发送中..."
+    },
+    "info": {
+      "email": "电子邮件",
+      "hours": "营业时间",
+      "hoursValue": "周一至周五：9:00-18:00",
+      "response": "回复时间",
+      "responseValue": "24小时内回复"
+    }
+  },
+  "footer": {
+    "description": "为现代都市人精心甄选的私密健康产品。品质、隐私和教育是我们一切工作的核心。",
+    "quickLinks": "快速链接",
+    "customerService": "客户服务",
+    "faq": "常见问题",
+    "shipping": "配送信息",
+    "returns": "退换货政策",
+    "followUs": "关注我们",
+    "copyright": "© 2026 Adult Toy Store. 保留所有权利。"
+  }
+}
