@@ -2,6 +2,11 @@ import Fastify from "fastify";
 import cors from "@fastify/cors";
 import { authRoutes } from "./routes/auth.js";
 import { adminRoutes } from "./routes/admin.js";
+import { productRoutes } from "./routes/products.js";
+import { categoryRoutes } from "./routes/categories.js";
+import { cartRoutes } from "./routes/cart.js";
+import { orderRoutes } from "./routes/orders.js";
+import { addressRoutes } from "./routes/addresses.js";
 import { adminMiddleware } from "./middleware/auth.js";
 import { env } from "./config/env.js";
 
@@ -17,7 +22,20 @@ app.get("/health", async () => {
 // Public auth routes
 app.register(authRoutes);
 
-// Admin routes (auth required)
+// Public product and category routes
+app.register(productRoutes);
+app.register(categoryRoutes);
+
+// Cart routes (auth required)
+app.register(cartRoutes);
+
+// Order routes (auth required)
+app.register(orderRoutes);
+
+// Address routes (auth required)
+app.register(addressRoutes);
+
+// Admin routes (admin auth required)
 app.register(
   async (instance) => {
     instance.addHook("onRequest", adminMiddleware);
